@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: aliceblue;
+    font-family: 'Poppins';
+    color: #000;
+}
+header {
+    position: relative;
+    background-color: #6950A1;
+    top: 0%;
+    height: 250px;
+
+}
+#logo-arnia {
+    position: absolute;
+    background: url('../imgs/arnia.png');
+    background-size: cover;
+    top: 20px;
+    left: 20px;
+    height: 45px;
+    width: 150px;
+}
+img {
+    width: 10px;
+}
+main {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+article {
+    margin-top: 10px;
+    padding: 20px;
+    height: auto;
+    width: 50vw;
+}
+ul {
+    padding: 30px;
+}
+aside {
+    background-color: aliceblue;
+    border: 2px solid #6950A1;
+    border-radius: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    top: -120px;
+    right: 60px;
+    height: 520px;
+    width: 330px;
+}
+#title-box {
+    position: absolute;
+    display: inline;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: rgba(26, 16, 51, 0.9);
+    font-weight: 700;
+    color: #fff;
+    padding: 20px;
+    height: 150px;
+    width: 100%;
+}
+#form-box {
+    position: absolute;
+    top: 140px;
+    padding: 20px;
+    height: auto;
+    width: 84%;
+}
+#form-box input {
+    position: absolute;
+    all: unset;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    border: 1px solid #6950A1;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+}
+#btt {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #6950A1;
+    color: #fff;
+    font-weight: 700;
+}
+p#bold-txt {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+}
